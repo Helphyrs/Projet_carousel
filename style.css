@@ -1,0 +1,45 @@
+.display {
+    display:none;
+}
+nav,a {
+    padding:10px;
+    margin:10px;
+}
+nav > i, nav > span > i {
+    padding:10px;
+    color:black;
+    cursor:pointer;
+}
+#down, #up {
+    font-size: 1.6rem;
+}
+figure {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+img {
+    margin:5px;
+    border:2px solid black;
+}
+
+figcaption {
+    padding:0.2rem 10rem;
+    background-color: black;
+    color:white;
+}
+.Boite {
+    display:flex;
+    justify-content:center;
+}
+#bouton1,#bouton2,#bouton3,#bouton4,#bouton5,#bouton6 {
+    border-radius:50%;
+    border:1px solid purple;
+    padding:10px;
+    margin:5px;
+    cursor:pointer;
+}
+.Couleur {
+    background-color: black;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Sliders</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesomome.min.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="test">
+    <h1>Sliders, les mondes parallèles</h1>
+    <header>
+        <span id="span1"><i class="fa-regular fa-circle-down" id="down"></i></span>
+        <span id="span2" class="display"><i class="fa-regular fa-circle-up" id="up"></i></span>
+        
+        <a href="#toolbar_toggle" id="toolbar_toggle">Barre d'outils</a>
+        
+        <nav class="toolbar" id="toolbar">
+            <i class="fa-solid fa-arrow-left" id="slider_previous"></i>
+            <span id="span3"><i class="fa-regular fa-circle-play" id="slider_toggle"></i></span>
+            <span class="display" id="span4"><i class="fa-solid fa-pause" id="pause"></i></span>
+            <i class="fa-solid fa-arrow-right" id="slider_next"></i>
+            <i class="fa-solid fa-shuffle" id="slider_random"></i>
+        </nav>
+    </header>
+    <figure id="slider" class="slider">
+        <img src="images/1.jpg" alt="graffiti" id="image">
+        <figcaption id="legende">Street Art</figcaption>
+    </figure>
+    <div class="Boite">
+        <div class="Couleur" id="bouton1"></div>
+        <div id="bouton2"></div>
+        <div id="bouton3"></div>
+        <div id="bouton4"></div>
+        <div id="bouton5"></div>
+        <div id="bouton6"></div>
+    </div>
+    
+    <script type="text/javascript" src="js/slider.js"></script>
+</body>
+</html>
